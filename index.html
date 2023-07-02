@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO</title>
+    <meta name="keywords" content="Portfolio, páginas web, sitios web, programación,Desarrollo web, Desarrollo Front-end,HTML5,CSS3, Bootstrap,Git, GitHub, JavaScript,React,Node, npm">
+    <meta name="description" content="Este es el sitio web de mi portafolio">
+    <!-- Imagen para el título de la pestaña -->
+    <link rel="icon" type="favicon/x-icon" href="./img/pi-mathematical-constant-symbol.svg">
+    <!-- Enlaces a google font: letra "Nunito" -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Enlace a fuente de Google fonts: "Open Sans"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Enlace a css de bootstrap local-->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <!-- Enlace al CSS del spinner -->
+    <link rel="stylesheet" href="./assets/css/spinner.css">
+    <!-- Enlace a css local -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b3f17f1dac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Acá empieza la cabecera -->
+    <header>
+        <!-- Acá empieza el nav -->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark fs-5 border-bottom">
+            <div class="container-fluid">
+                <div class="column">
+                    <div class="logo">
+                        <!-- <span class="gear rodar">S</span> -->
+                        <img src="img/logo1.png" class="gear" alt="">
+                        <a href="#" id="marcaPersonal">
+                            <p class="m-0">Xinia</p>
+                            <p class="m-0">DevOne</p>
+                        </a>
+                        <!-- <span class="justBeNice desplazamiento">#</span> -->
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fs-4 m-1 me-5">
+                        <li class="nav-item">
+                            <a id="menu" class="nav-link m-2" href="#sobre">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="menu" class="nav-link m-2" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="menu" class="nav-link m-2" href="#formacion">Formación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="menu" class="nav-link m-2" href="#trabajos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="menu" class="nav-link m-2 border-start rounded-3 ps-1" href="#contact">Contratar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Acá termina el nav-->
+    </header>
+    <!-- Acá termina la cabecera -->
+
+    <!-- Acá empieza el contenido principal -->
+    <main>
+        <!-- Sección de presentación -->
+        <section>
+            <div class="container">
+                <div class="presentacion mb-4">
+                    <!-- Texto de presentación e iconos de redes sociales-->
+                    <div class="presentacionInfo stretchRight">
+                        <h1 class="tituloPrincipal">¡Hola! Me llamo Xinia y construyo páginas Web</h1>
+                        <p class="presentacionInfoPrincipal lead">Actualmente estoy participando del proyecto ORACLE ONE en Alura Latam.
+                        Me encuentro reforzando mi conocimiento con proyectos, mientras aprendo otras tecnologías. 
+                        Busco trabajar en equipos donde pueda aplicar mis conocimientos, hacer un plan de carrera y seguir creciendo a nivel profesional.</p>
+                        <div class="cajaIconosPresentacion">
+                            <a href="https://linkedin.com/in/xinia-cáseres-solano-672385270/" target="_blank" class="m-3 text-decoration-none">
+                                <img src="./img/social/linkedin.svg" alt="Imagen del icono de linkedIn" class="iconoPresentacion">
+                                <p class="nombreIcono lead">LinkedIn</p>
+                            </a>
+                            <a href="https://github.com/Dxinia/" target="_blank" class="m-3 text-decoration-none">
+                                <img src="./img/social/github.svg" alt="Imagen del icono de GitHub" class="iconoPresentacion">
+                                <p class="nombreIcono lead">GitHub</p>
+                            </a>
+                            <a href=https://www.canva.com/design/DAFnfsLbuoU/HZsrcfPBfFa2UCSrP2jYgg/edit target="_blank" class="m-3 text-decoration-none">
+                                <img src="img/social/download-pdf.png" alt="Imagen del icono de un CV" class="iconoPresentacion">
+                                <p class="nombreIcono lead">Mi CV</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- foto de perfil y presentación destacada debajo-->
+                    <div class="foto text-center mb-2">
+                        <img src="./img/FotoPerfil.png" class="rounded-circle mb-3 imgFotoPerfil" alt="imagen de mi foto de perfil">
+                        <p class="nombre">Xinia Giselle Cáseres Solano</p>
+                        <p class="nombre">Dev en Formación</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de la sección de presentación-->
+
+        <!-- Sección acerca de mí -->
+        <section>
+            <h2 id="sobre" class="titulo fs-1 mt-4">Sobre mí</h2>
+            <div class="container sobreMi">
+                <h3 class="subtitulo">Hobbies:</h3>
+                <div class="cajaHobbie">
+                    <img src="img/hobbies/books.png" class="iconoHobbie" alt="libros">
+                    <p class="resumen">Me gusta estudiar, porque disfruto de aprender. Me gusta leer sobre ciencias,biología, y sobre desarrollo personal, como libros de liderazgo y otros que apunten a potenciar las habilidades blandas y la inteligencia emocional.</p>
+                </div>
+                <div class="cajaHobbie">
+                    <img src="img/hobbies/movie.png" class="iconoHobbie" alt="película en una TV">
+                    <p class="resumen">Cine, series y películas en casa.</p>
+                </div>
+                 </div>
+           
+        </section>
+        <!-- Fin de la sección acerca de mí -->
+
+        <!-- Sección de skills (habilidades técnicas y blandas)-->
+        <section>
+            <h2 id="skills" class="titulo fs-1 mt-4">Skills</h2>
+            <div class="container">
+                <h3 class="subtitulo">Technical skills:</h3>
+                <div class="cajaSkills mb-5">
+                    <div class="m-2">
+                        <!-- <i class="iconoSkill git fa-brands fa-git-alt"></i> -->
+                        <img src="img/skills/technical-skills/figma.svg" class="iconoSkill" alt="logo de Figma">
+                        <p class="nombreIcono lead">Figma</p>
+                    </div>    
+                    <div class="m-2">
+                        <!-- <i class="iconoSkill git fa-brands fa-git-alt"></i> -->
+                        <img src="img/skills/technical-skills/trello.svg" class="iconoSkill" alt="logo de Trello">
+                        <p class="nombreIcono lead">Trello</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/vscode.svg" class="iconoSkill" alt="logo de Visual Studio Code">
+                        <p class="nombreIcono lead">Visual Studio Code</p>
+                    </div>    
+                    <div class="m-2">
+                        <!-- <i class="iconoSkill git fa-brands fa-git-alt"></i> -->
+                        <img src="img/skills/technical-skills/git.svg" class="iconoSkill" alt="logo de Git">
+                        <p class="nombreIcono lead">Git</p>
+                    </div>    
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/github.svg" class="iconoSkill" alt="logo de GitHub">
+                        <p class="nombreIcono lead">GitHub</p>
+                    </div>    
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/html5-original-wordmark.svg" class="iconoSkill" alt="logo de HTML5">
+                        <p class="nombreIcono lead">HTML5</p>
+                    </div>    
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/css3.svg" class="iconoSkill" alt="logo de CSS3">
+                        <p class="nombreIcono lead">CSS3</p>
+                    </div>    
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/javascript.svg" class="iconoSkill" alt="logo de JavaScript">
+                        <p class="nombreIcono lead">JavaScript</p>
+                    </div>        
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/react.svg" class="iconoSkill" alt="logo de React">
+                        <p class="nombreIcono lead">React</p>
+                    </div>    
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/nodejs.svg" class="iconoSkill" alt="logo de Node.js">
+                        <p class="nombreIcono lead">Node.js</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/technical-skills/python.svg" class="iconoSkill" alt="logo de Python">
+                        <p class="nombreIcono lead">Python</p>
+                    </div>                                            
+                </div>    
+                <h3 class="subtitulo">Soft skills:</h3>
+                <div class="cajaSkills mb-5">
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/resiliencia.png" class="iconoSkill" alt="resiliencia, mente positiva">
+                        <p class="nombreIcono lead">Resiliencia</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/liderazgo.png" class="iconoSkill" alt="liderazgo">
+                        <p class="nombreIcono lead">Liderazgo</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/sentido.png" class="iconoSkill" alt="sentido común">
+                        <p class="nombreIcono lead m-0">Sentido</p>
+                        <p class="nombreIcono lead m-0">Común</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/pens-critico.png" class="iconoSkill" alt="pensamiento crítico">
+                        <p class="nombreIcono lead m-0">Pensamiento</p>
+                        <p class="nombreIcono lead m-0">Crítico</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/proactividad.png" class="iconoSkill" alt="proactividad">
+                        <p class="nombreIcono lead">Proactividad</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/pens-autonomia.png" class="iconoSkill" alt="autonomía">
+                        <p class="nombreIcono lead">Autonomía</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/lista-de-verificacion.png" class="iconoSkill" alt="compromiso">
+                        <p class="nombreIcono lead">Compromiso</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/responsabilidad.png" class="iconoSkill" alt="responsabilidad">
+                        <p class="nombreIcono lead">Responsabilidad</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/entusiasmo.png" class="iconoSkill" alt="entusiasmo">
+                        <p class="nombreIcono lead">Entusiasmo</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/motivacion.png" class="iconoSkill" alt="motivación">
+                        <p class="nombreIcono lead">Motivación</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/concentracion.png" class="iconoSkill" alt="concentración">
+                        <p class="nombreIcono lead">Concentración</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/comunicacion.png" class="iconoSkill" alt="comunicación">
+                        <p class="nombreIcono lead">Comunicación</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/flexibilidad.png" class="iconoSkill" alt="flexibilidad">
+                        <p class="nombreIcono lead">Flexibilidad</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/gestion-del-tiempo.png" class="iconoSkill" alt="gestión del tiempo">
+                        <p class="nombreIcono lead m-0">Gestión del</p>
+                        <p class="nombreIcono lead m-0">tiempo</p>
+                    </div>
+                    <div class="m-2">
+                        <img src="img/skills/soft-skills/trabajo-equipo.png" class="iconoSkill" alt="trabajo en equipo">
+                        <p class="nombreIcono lead m-0">Trabajo</p>
+                        <p class="nombreIcono lead m-0">en equipo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de la sección de skills -->
+
+        <!-- Sección de formación -->
+        <section>
+            <h2 id="formacion" class="titulo fs-1">Formación</h2>
+            <div class="container">
+                <p class="resumen mt-4 mb-4">Esta es mi formación profesional principal. Sin embargo, cuento con otras certificaciones y estudios que acompañan mis conocimientos en tecnología, que siempre me sirven para profundizar y complementar las formaciones.</p>
+                <div class="proyectos">
+                    </article>
+                    <!-- Python cisco networking -->
+                    <article id="proyectoPython" class="proyecto proyecto-Python">
+                        <a href="https://https://skillsforall.com/" target="_blank">
+                            <img src="https://th.bing.com/th?id=OIP.kd1FHYCkqIjwi41MBRtHRQHaHf&w=248&h=251&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                                alt="https://th.bing.com/th?id=OIP.kd1FHYCkqIjwi41MBRtHRQHaHf&w=248&h=251&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" class="img">
+                        </a>
+                        <div class="info">
+                            <p class="fs-4 m-0">Python</p>
+                            <p class="fs-4 mt-3 lead">June 01,2023</p>
+                        </div>
+                    </article>
+                    <!-- Diplomatura en Ciencia de Datos e Inteligencia Artificial -->
+                    </article>
+                    </article>
+                    <!-- Programa ONE -->
+                    <article id="proyectoCoderhouse" class="proyecto proyecto-hover">
+                        <a href="https://app.aluracursos.com/user/xinia-developer/program/certificate" target="_blank">
+                            <img src="img/education/programa-ONE.png"
+                                alt="imagen del nombre del programa ONE con su slogan" class="img">
+                        </a>
+                        <div class="info">
+                            <p class="fs-4 m-0">Programa ONE</p>
+                            <p class="fs-4 mt-3 lead">Mar 2023 - Actualidad</p>
+                        </div>
+                    </article>
+                        </div>
+                    </article>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de la sección de formación -->
+
+        <!-- Sección sobre los proyectos destacados -->
+        <section>
+            <h2 id="trabajos" class="titulo fs-1">Proyectos</h2>
+        </article>
+                    <article class="proyecto proyecto-hover">
+                    <!-- Encriptador de texto, proyecto que forma parte de los challenges del programa ONE, de Oracle + Alura LATAM -->
+                    <article class="proyecto proyecto-hover">
+                        <a href="https://github.com/Dxinia/" target="_blank">
+                            <img src="./img/projects/secretcode_print.png" alt="imagen de la aplicación del encriptador"
+                            class="img">
+                        </a>
+                        <div class="info">
+                            <p class="fs-4 m-0">Encriptador</p>
+                            <p class="fs-4 mt-3 lead"></p>
+                        </div>
+                        <div class="https://github.com/Dxinia/" target="_blank">
+                                <button class="btn btn-md btnColorUno bg-gradient">Ver Demo</button>
+                            </a>
+                            <a href="https://github.com/Dxinia/" target="_blank">
+                                <button class="btn btn-md btnColorDos bg-gradient">Ver Código</button>
+                            </a>
+                        </div>
+                    </article>
+                   
+                            <a href="https://github.com/Dxinia/" target="_blank">
+                                <button class="btn btn-md btnColorDos bg-gradient">Ver Código</button>
+                            </a>
+                        </div>
+                    </article>
+                                <button class="btn btn-md btnColorDos bg-gradient">Ver Código</button>
+                            </a>
+        </section>
+        <!-- Fin de la sección acerca de los proyectos -->
+         <!-- Fin de la sección de contacto -->
+    </main>
+    <!-- Acá termina el contenido principal -->
+    <!-- Acá empieza el pie de página -->
+    <h2 id="contact" class="titulo text-center fs-1 mt-5">Contratar</h2>
+    <footer id="footer" class="border-top container-fluid">
+        <div class="container">
+            <div class="row justify-content-around mt-3 gap-2 p-2">
+                <div class="footerContacto col-10 col-md-5 col-xl-4 col-xxl-3 mb-2">
+                    <div class="d-flex flex-column justify-content-start align-items-start">
+                        <h4 class="mb-3">Servicios:</h4>
+                        <p>Desarrollo web</p>
+                        <p>Desarrollo Front-end</p>
+                    </div>
+                </div>
+                <div class="footerContacto col-10 col-md-5 col-xl-4 col-xxl-3 mb-2">
+                    <div class="d-flex flex-column justify-content-start align-items-start">
+                        <h4 class="mb-3">Contacto:</h4>
+                        <div class="mb-3">
+                            <span><i class="fa-solid fa-phone me-1"></i></span>(+506)89704782
+                        </div>
+                        <div class="mb-3">
+                            <span><i class="fa-solid fa-envelope me-1"></i></span>xigicaso@gmail.com
+                        </div>
+                        <div class="border border-secondary rounded p-2">
+                            <a href="mailTo:xigicaso@gmail.com" id="escribeme" class="text-decoration-none footerContacto"><span><i class="fa-solid fa-message me-2"></i></span>Escríbeme</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerContacto col-10 col-md-5 col-xl-4 col-xxl-3 mb-2">
+                    <div class="d-flex flex-column justify-content-start align-items-start">
+                        <h4>Redes Sociales</h4>
+                        <div>
+                            <a href="https://github.com/Dxinia/" target="_blank" class="m-2"><img src="img/social/github.svg"
+                                alt="Imagen del icono de GitHub" class="iconoPresentacion"></a>
+                            <a href="https://linkedin.com/in/xinia-cáseres-solano-672385270/" target="_blank" class="m-2"><img
+                                src="img/social/linkedin.svg" alt="Imagen del icono de linkedIn" class="iconoPresentacion"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-0 pb-1 pt-2">
+            <a href="#" class="logoFooter">Portafolio</a>
+            <p class="footerInfo pb-4 m-0">&copy;2023 Desarrollado por Xinia<p/>
+        </div>
+    </footer>
+    <!-- Acá termina el pie de página -->
+
+    <!-- Enlace a JavaScript de bootstrap local -->
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Enlace a JavaScript local -->
+    <!-- <script src="./assets/js/index.js"></script> -->
+</body>
+
+</html>
